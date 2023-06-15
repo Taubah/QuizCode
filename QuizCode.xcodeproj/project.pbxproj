@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD3490862A3B5ABE002135E9 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3490852A3B5ABE002135E9 /* Page2.swift */; };
+		BD34908A2A3B5E1E002135E9 /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3490892A3B5E1E002135E9 /* Page3.swift */; };
+		BD34908C2A3B5EDA002135E9 /* Results1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34908B2A3B5EDA002135E9 /* Results1.swift */; };
+		BD34908E2A3B5EE9002135E9 /* Results2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34908D2A3B5EE9002135E9 /* Results2.swift */; };
 		BD56C5D52A38FADF00F4CCB1 /* QuizCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD56C5D42A38FADF00F4CCB1 /* QuizCodeApp.swift */; };
 		BD56C5D72A38FADF00F4CCB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD56C5D62A38FADF00F4CCB1 /* ContentView.swift */; };
 		BD56C5D92A38FAE100F4CCB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD56C5D82A38FAE100F4CCB1 /* Assets.xcassets */; };
 		BD56C5DC2A38FAE100F4CCB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD56C5DB2A38FAE100F4CCB1 /* Preview Assets.xcassets */; };
+		BD56C5E32A38FF4F00F4CCB1 /* Quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD56C5E22A38FF4F00F4CCB1 /* Quiz2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD3490852A3B5ABE002135E9 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		BD3490892A3B5E1E002135E9 /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
+		BD34908B2A3B5EDA002135E9 /* Results1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results1.swift; sourceTree = "<group>"; };
+		BD34908D2A3B5EE9002135E9 /* Results2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results2.swift; sourceTree = "<group>"; };
 		BD56C5D12A38FADF00F4CCB1 /* QuizCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD56C5D42A38FADF00F4CCB1 /* QuizCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCodeApp.swift; sourceTree = "<group>"; };
 		BD56C5D62A38FADF00F4CCB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD56C5D82A38FAE100F4CCB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD56C5DB2A38FAE100F4CCB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD56C5E22A38FF4F00F4CCB1 /* Quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,10 @@
 		BD56C5C82A38FADF00F4CCB1 = {
 			isa = PBXGroup;
 			children = (
+				BD3490892A3B5E1E002135E9 /* Page3.swift */,
+				BD34908B2A3B5EDA002135E9 /* Results1.swift */,
+				BD34908D2A3B5EE9002135E9 /* Results2.swift */,
+				BD3490852A3B5ABE002135E9 /* Page2.swift */,
 				BD56C5D32A38FADF00F4CCB1 /* QuizCode */,
 				BD56C5D22A38FADF00F4CCB1 /* Products */,
 			);
@@ -53,6 +67,7 @@
 			children = (
 				BD56C5D42A38FADF00F4CCB1 /* QuizCodeApp.swift */,
 				BD56C5D62A38FADF00F4CCB1 /* ContentView.swift */,
+				BD56C5E22A38FF4F00F4CCB1 /* Quiz2.swift */,
 				BD56C5D82A38FAE100F4CCB1 /* Assets.xcassets */,
 				BD56C5DA2A38FAE100F4CCB1 /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD34908A2A3B5E1E002135E9 /* Page3.swift in Sources */,
+				BD56C5E32A38FF4F00F4CCB1 /* Quiz2.swift in Sources */,
+				BD3490862A3B5ABE002135E9 /* Page2.swift in Sources */,
 				BD56C5D72A38FADF00F4CCB1 /* ContentView.swift in Sources */,
+				BD34908E2A3B5EE9002135E9 /* Results2.swift in Sources */,
+				BD34908C2A3B5EDA002135E9 /* Results1.swift in Sources */,
 				BD56C5D52A38FADF00F4CCB1 /* QuizCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

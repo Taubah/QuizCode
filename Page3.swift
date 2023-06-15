@@ -1,36 +1,31 @@
 //
-//  ContentView.swift
+//  Page3.swift
 //  QuizCode
 //
-//  Created by Scholar on 6/13/23.
+//  Created by Scholar on 6/15/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct Page3: View {
     var body: some View {
-        
         NavigationStack {
             VStack {
                 Text("Question 1")
-                Text("What color is you hair?")
+                Text("What is your favorite shape?")
                 
                 HStack {
-                    NavigationLink(destination: Page2()) {
-                        Image("Brown.png")
+                    NavigationLink(destination: Results1()) {
+                        Image("Square")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 75.0)
-                        Image("Grey")
+                        Image("Circle")
                             .renderingMode(.original)
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 75.0)
-                        Image("LBrown")
-                            .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 75.0)
-                        Image("black")
+                        Image("Triangle")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 75.0)
@@ -38,14 +33,11 @@ struct ContentView: View {
                 }
             }
         }
-        
-        
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Page3_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Page3()
     }
 }
